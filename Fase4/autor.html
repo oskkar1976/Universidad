@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="shortcut icon" type="image/x - icon" href="img/unad.ico">
+</head>
+
+<body>
+    <header>
+        <h1>Sitio WEB "Etiquetas Básicas de HTML, atributos y valores"</h1>
+    </header>
+    <nav>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+
+            .menu-area a {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: #fff;
+                background: black;
+                height: 70px;
+                text-decoration: none;
+            }
+
+            .menu-area a:hover {
+                background: tomato;
+                color: #fff;
+
+            }
+
+            .menu-area ul {
+                list-style: none;
+                display: flex;
+            }
+
+            .menu-area li {
+                position: relative;
+                width: 100%;
+                text-align: center;
+            }
+
+            .menu-area li:hover .dropdown-1>li {
+                top: 0;
+                display: block;
+            }
+
+            .dropdown-1 li {
+                display: none;
+                position: relative;
+            }
+
+            .dropdown-1 {
+                position: absolute;
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+            }
+
+            .dropdown-1 li:hover {
+                display: block;
+            }
+        </style>
+        </head>
+
+        <body>
+            <nav class="menu-area">
+                <ul>                    
+                    <li> <a href="index.html">Inicio</a> </li>                    
+                    <li><a href="#">Temas</a>
+                        <ul class="dropdown-1">
+                            <li><a href="tema1.html">Tema 1</a></li>
+                            <li><a href="tema2.html">Tema 2</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Recursos Digitales</a>
+                        <ul class="dropdown-1">
+                            <li> <a href="recurso1.html">Recurso 1</a> </li>
+                            <li><a href="recurso2.html">Recurso 2</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Aprendizaje</a>
+                        <ul class="dropdown-1">
+                            <li> <a href="aprendizaje1.html">Aprendizaje 1</a> </li>
+                            <li><a href="aprendizaje2.html">Aprendizaje 2</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="autor.html">Autor</a></li>                    
+                </ul>
+            </nav>
+
+        </body>
+    </nav>
+    <div class="contenedor">
+        <section>
+            <h1>Datos</h1>
+            <p>
+            <h2>Nombre: Oscar Javier Castillo Ramirez</h2>
+            <h4>Código: 79871421</h4>
+            <h4>Programa: Ingeniería de Sistemas</h4>
+            <h4>Correo: ojcastillor@unadvirtual.edu.co</h4>            
+            <h4>Skype: oskkar2008</h4>            
+            </p><br>
+            <img src="img/yo.JPG"/>
+        </section>
+        <aside>
+            <iframe
+                src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FUniversidadUNAD%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+                width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+                allowfullscreen="true"
+                allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+        </aside>
+    </div>
+    <footer>
+        <p>
+        <h4>Oscar Javier Castillo Ramirez - oscarcastillo2004@hotmail.com / WTS: 3173005418</h3>
+            </p>
+            <footer>
+</body>
+
+</html>
