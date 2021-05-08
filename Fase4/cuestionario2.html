@@ -18,6 +18,89 @@
         <h1>Bienvenido al Módulo de evaluación "Cuestionario 2" </h1>
 
     </header>
+    <nav>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+
+            .menu-area a {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: #fff;
+                background: black;
+                height: 70px;
+                text-decoration: none;
+            }
+
+            .menu-area a:hover {
+                background: tomato;
+                color: #fff;
+
+            }
+
+            .menu-area ul {
+                list-style: none;
+                display: flex;
+            }
+
+            .menu-area li {
+                position: relative;
+                width: 100%;
+                text-align: center;
+            }
+
+            .menu-area li:hover .dropdown-1>li {
+                top: 0;
+                display: block;
+            }
+
+            .dropdown-1 li {
+                display: none;
+                position: relative;
+            }
+
+            .dropdown-1 {
+                position: absolute;
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+            }
+
+            .dropdown-1 li:hover {
+                display: block;
+            }
+        </style>
+        </head>
+
+        <body>
+            <nav class="menu-area">
+                <ul>
+                    <li> <a href="index.html">Inicio</a> </li>                    
+                    <li><a href="#">Temas</a>
+                        <ul class="dropdown-1">
+                            <li><a href="tema1.html">Tema 1</a></li>
+                            <li><a href="tema2.html">Tema 2</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Recursos Digitales</a>
+                        <ul class="dropdown-1">
+                            <li> <a href="recurso1.html">Recurso 1</a> </li>
+                            <li><a href="recurso2.html">Recurso 2</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Aprendizaje</a>
+                        <ul class="dropdown-1">
+                            <li><a href="cuestionario1.html">Cuestionario1 </a> </li>
+                            <li><a href="cuestionario2.html">Cuestionario2 </a></li>
+                        </ul>
+                    </li>
+                    <li><a href="autor.html">Autor</a></li>
+                </ul>
+            </nav>
 
     <main class="container">
         <div class="row">
